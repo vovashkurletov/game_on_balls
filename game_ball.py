@@ -6,7 +6,7 @@ import math
 from PIL import ImageTk, Image
 
 root = tk.Tk()
-canvas = tk.Canvas(root, height=999, width=999, bg='blue')
+canvas = tk.Canvas(root, height=999, width=999)
 canvas.pack()
 
 
