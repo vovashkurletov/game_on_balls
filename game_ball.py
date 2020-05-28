@@ -1,4 +1,4 @@
-import time
+
 from tkinter import *
 import tkinter as tk
 import random as rnd
@@ -8,7 +8,6 @@ from PIL import ImageTk, Image
 root = tk.Tk()
 canvas = tk.Canvas(root, height=999, width=999, bg='blue')
 canvas.pack()
-frames = [PhotoImage(file='C:\\vkbot\\s1200.gif',format = 'gif -index %i' % (i)) for i in range(5)]
 
 
  
